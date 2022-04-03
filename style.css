@@ -4,9 +4,9 @@ body {
 }
 
 #container{
-    width: ;
+
     height: 600px;
-    background-color: rgb(149, 155, 153);
+    background-color: rgb(34, 36, 35);
     margin: 100px 100px;
     display: flex;
     justify-content: center;
@@ -14,8 +14,8 @@ body {
 }
 
 #calculator{
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 600px;
     background-color: rgb(207, 204, 216);
     border-radius: 5px;
 }
@@ -53,5 +53,37 @@ body {
     border-width: 0;
     font-weight: bold;
     font-size: 15px;
+}
 
+.number, .empty{
+    background-color: rgb(207, 204, 216);
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color:#ffa500;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
 }
